@@ -1,0 +1,24 @@
+.footer{
+    padding:35px 8%;
+    text-align:center;
+    background:#111827;
+}
+
+.footer-line{
+    width:120px;
+    height:3px;
+    background:#38bdf8;
+    margin:0 auto 25px;
+    border-radius:20px;
+}
+
+.footer-text{
+    color:#cbd5e1;
+    font-size:18px;
+    margin-bottom:12px;
+}
+
+.copyright{
+    color:#64748b;
+    font-size:15px;
+}
