@@ -1,6 +1,7 @@
 .about{
     padding:40px 100px 70px;
     background:#111827;
+    scroll-margin-top: 70px;
 }
 
 .section-title{
@@ -54,4 +55,85 @@
 }
 .about-text strong {
     color: white;
+}
+
+
+
+
+
+/* ================= TABLET ================= */
+
+@media (max-width: 768px){
+
+  .about{
+    padding: 60px 20px;
+  }
+
+  .section-title{
+    font-size: 44px;
+    margin-bottom: 35px;
+  }
+
+  .about-container{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-text{
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-text p{
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .about-info{
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .info-box{
+    padding: 25px;
+    text-align: center;
+  }
+
+  .info-box span{
+    font-size: 32px;
+  }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 480px){
+
+  .about{
+    padding: 50px 15px;
+  }
+
+  .section-title{
+    font-size: 36px;
+  }
+
+  .about-text p{
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .info-box{
+    padding: 20px;
+  }
+
+  .info-box h3{
+    font-size: 20px;
+  }
+
+  .info-box p{
+    font-size: 15px;
+  }
+
 }

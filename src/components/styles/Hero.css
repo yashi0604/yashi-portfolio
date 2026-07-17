@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px 100px 60px;
+  padding: 130px 100px 60px;
 }
 
 .hero-left {
@@ -296,5 +296,110 @@ opacity:.7;
 transform:scale(1);
 opacity:1;
 }
+
+}
+
+
+
+
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .hero{
+    height: auto;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 120px 20px 60px;
+    gap: 40px;
+  }
+
+  .hero-left,
+  .hero-right{
+    width: 100%;
+  }
+
+  .hero-buttons{
+    justify-content: center;
+  }
+
+  .hero h1{
+    font-size: 48px;
+  }
+
+  .hero h1 span{
+    font-size: 48px;
+  }
+
+  .hero-subtitle{
+    font-size: 20px;
+  }
+
+  .hero-description,
+  .hero p{
+    font-size: 17px;
+    max-width: 100%;
+    line-height: 1.7;
+  }
+
+  .profile-image{
+    width: 260px;
+    height: 260px;
+  }
+
+  .image-glow{
+    width: 260px;
+    height: 260px;
+  }
+
+  .primary-btn{
+    padding: 14px 28px;
+    font-size: 16px;
+  }
+
+  .hero-badge{
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+}
+
+
+/* ================= SMALL PHONES ================= */
+
+@media (max-width: 480px){
+
+  .hero{
+    padding: 110px 15px 50px;
+  }
+
+  .hero h1{
+    font-size: 38px;
+  }
+
+  .hero h1 span{
+    font-size: 38px;
+  }
+
+  .hero-subtitle{
+    font-size: 18px;
+  }
+
+  .hero-description,
+  .hero p{
+    font-size: 16px;
+  }
+
+  .profile-image{
+    width: 220px;
+    height: 220px;
+  }
+
+  .image-glow{
+    width: 220px;
+    height: 220px;
+  }
 
 }

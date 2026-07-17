@@ -1,0 +1,61 @@
+.scroll-top{
+    position: fixed;
+
+    right: 35px;
+    bottom: 35px;
+
+    width: 56px;
+    height: 56px;
+
+    border-radius: 50%;
+    border: none;
+
+    background: #38bdf8;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    font-size: 22px;
+    line-height: 1;
+
+    z-index: 999;
+
+    box-shadow: 0 8px 25px rgba(56,189,248,.45);
+
+    transition: all .3s ease;
+}
+
+.scroll-top svg{
+    width:22px;
+    height:22px;
+}
+
+.scroll-top:hover{
+    transform: translateY(-4px);
+    background:#0ea5e9;
+}
+
+@media(max-width:768px){
+
+.scroll-top{
+
+    width:48px;
+    height:48px;
+
+    right:20px;
+    bottom:20px;
+
+}
+
+.scroll-top svg{
+
+    width:18px;
+    height:18px;
+
+}
+
+}

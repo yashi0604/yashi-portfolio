@@ -145,3 +145,93 @@ font-size:18px;
   font-size:16px;
   font-weight:600;
 }
+
+
+
+
+/* ================= TABLET ================= */
+
+@media (max-width:768px){
+
+  .contact{
+    padding:60px 20px;
+  }
+
+  .contact h2{
+    font-size:44px;
+  }
+
+  .contact-subtitle{
+    font-size:16px;
+    margin-bottom:35px;
+  }
+
+  .contact-grid{
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+
+  .contact-card{
+    padding:28px;
+  }
+
+  .contact-icon{
+    font-size:32px;
+  }
+
+  .contact-card h3{
+    font-size:20px;
+  }
+
+  .resume-btn{
+    width:100%;
+    max-width:300px;
+  }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width:480px){
+
+  .contact{
+    padding:50px 15px;
+  }
+
+  .contact h2{
+    font-size:36px;
+  }
+
+  .contact-subtitle{
+    font-size:15px;
+    line-height:1.7;
+  }
+
+  .contact-card{
+    padding:22px;
+  }
+
+  .contact-icon{
+    font-size:28px;
+  }
+
+  .contact-card h3{
+    font-size:18px;
+  }
+
+  .contact-card p{
+    font-size:14px;
+  }
+
+  .open-roles span{
+    font-size:15px;
+  }
+
+  .resume-btn{
+    width:100%;
+    padding:15px;
+    font-size:16px;
+  }
+
+}

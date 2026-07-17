@@ -164,3 +164,135 @@
 .experience-points li{
     margin-bottom:0px;
 }
+
+
+
+
+/* ================= TABLET ================= */
+
+@media (max-width:768px){
+
+  .experience{
+    padding:60px 20px;
+  }
+
+  .experience .section-title{
+    font-size:44px;
+  }
+
+  .timeline{
+    padding-left:35px;
+  }
+
+  .timeline::before{
+    left:10px;
+  }
+
+  .timeline-dot{
+    left:0;
+    width:20px;
+    height:20px;
+  }
+
+  .experience-card{
+    padding:28px;
+  }
+
+  .experience-header{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+  }
+
+  .company-logo{
+    width:90px;
+  }
+
+  .company-info h3{
+    font-size:30px;
+  }
+
+  .company-info h4{
+    font-size:18px;
+  }
+
+  .experience-links{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width:480px){
+
+  .experience{
+    padding:50px 15px;
+  }
+
+  .experience .section-title{
+    font-size:36px;
+  }
+
+  .timeline{
+    padding-left:25px;
+  }
+
+  .timeline::before{
+    left:8px;
+  }
+
+  .timeline-dot{
+    left:-1px;
+    width:18px;
+    height:18px;
+  }
+
+  .experience-card{
+    padding:20px;
+  }
+
+  .experience-date{
+    font-size:13px;
+  }
+
+  .company-logo{
+    width:75px;
+  }
+
+  .company-info h3{
+    font-size:24px;
+  }
+
+  .company-info h4{
+    font-size:16px;
+  }
+
+  .experience-card p{
+    font-size:16px;
+  }
+
+  .experience-points{
+    font-size:16px;
+    line-height:1.8;
+    padding-left:18px;
+  }
+
+  .experience-tags{
+    justify-content:center;
+  }
+
+  .experience-links{
+    flex-direction:column;
+    gap:12px;
+  }
+
+  .certificate-btn,
+  .company-btn{
+    text-align:center;
+    width:100%;
+  }
+
+}
