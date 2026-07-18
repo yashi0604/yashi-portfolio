@@ -29,7 +29,7 @@ function Hero() {
 
         <div className="hero-buttons">
           <a
-  href="/resume.pdf"
+  href="/YashiGupta_Resume.pdf"
   target="_blank"
   rel="noreferrer"
   className="primary-btn"
